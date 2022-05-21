@@ -12,7 +12,7 @@ use pocketmine\event\entity\EntityArmorChangeEvent;
 use pocketmine\event\entity\EntityDamageByEntityEvent;
 use pocketmine\event\entity\EntityDamageEvent;
 use pocketmine\item\Item;
-use pocketmine\Player;
+use pocketmine\player\Player;
 use pocketmine\event\entity\ProjectileHitBlockEvent;
 use pocketmine\entity\projectile\SplashPotion;
 use pocketmine\event\player\PlayerItemHeldEvent;
@@ -25,7 +25,7 @@ class Main extends PluginBase implements Listener{
     private $bardcooldown;
     private $config;
 
-    public function onEnable() {
+    public function onEnable():void {
         $this->getServer()->getPluginManager()->registerEvents($this, $this);
         $this->saveResource("config.yml");
         $this->config = new Config($this->getDataFolder()."config.yml", Config::YAML);

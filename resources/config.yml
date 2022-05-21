@@ -3,7 +3,7 @@ rogue-cooldown: 30	#Cooldown on backstabbing (gold swords)
 
 attacker-effects: true	#Should effects be given to the attacker of a backstab? (true/false)
 attacker:
-  "slowwwness":		#Title (Can be anything)
+  "slowness":		#Title (Can be anything)
     effect: 2		#Effect's ID (Refer to list bellow)
     amplifier: 2	#Effect's amplifier
     duration: 10	#Effect's duration (In seconds)
@@ -78,7 +78,7 @@ rogue-armor:		#Effects given to the player wearing rogue armor (full chain mail 
     effect: 8
     amplifier: 2
     visible: false
-  "res":
+  "resistance":
     effect: 11
     amplifier: 2
     visible: false
@@ -100,7 +100,7 @@ diamond-armor:		#Effects given to the player wearing diamond armor (full diamond
 
 # -=MINOR ARMOR=-
 minor-armor:		#Effects given to the player wearing minor armor (full iron armor)
-  "speeeeed":		#Title (Can be anything)
+  "speed":		#Title (Can be anything)
     effect: 1		#Effect's ID (Refer to list bellow)
     amplifier: 2	#Effect's amplifier
     visible: false	#Show particles or not? (true/false)
@@ -108,7 +108,7 @@ minor-armor:		#Effects given to the player wearing minor armor (full iron armor)
     effect: 16
     amplifier: 1
     visible: false
-  "res":
+  "resistance":
     effect: 11
     amplifier: 1
     visible: false
@@ -125,7 +125,7 @@ minor-armor:		#Effects given to the player wearing minor armor (full iron armor)
 
 # -=ARCHER ARMOR=-
 archer-armor:		#Effects given to the player wearing archer armor (full leather armor)
-  "speeeeed":		#Title (Can be anything)
+  "speed":		#Title (Can be anything)
     effect: 1		#Effect's ID (Refer to list bellow)
     amplifier: 2	#Effect's amplifier
     visible: false	#Show particles or not? (true/false)
@@ -137,7 +137,7 @@ archer-armor:		#Effects given to the player wearing archer armor (full leather a
     effect: 8
     amplifier: 2
     visible: false
-  "res":
+  "resistance":
     effect: 11
     amplifier: 2
     visible: false
@@ -146,7 +146,7 @@ archer-armor:		#Effects given to the player wearing archer armor (full leather a
 
 # -=BARD ARMOR=-
 bard-armor:		#Effects given to the player wearing bard armor (full gold armor)
-  "speeeeed":		#Title (Can be anything)
+  "speed":		#Title (Can be anything)
     effect: 1		#Effect's ID (Refer to list bellow)
     amplifier: 2	#Effect's amplifier
     visible: false	#Show particles or not? (true/false)
@@ -154,7 +154,7 @@ bard-armor:		#Effects given to the player wearing bard armor (full gold armor)
     effect: 16
     amplifier: 1
     visible: false
-  "res":
+  "resistance":
     effect: 11
     amplifier: 2
     visible: false
